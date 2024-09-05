@@ -6,7 +6,11 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["var(--font-sans)", ...fontFamily.sans],
+        sans: ['HK Grotesk', ...fontFamily.sans],
+      },
+	  backgroundImage: {
+        'screw-machine': "url('/public/screw_machine.jpg')",
+        'footer-texture': "url('/img/footer-texture.png')",
       },
     },
   },
