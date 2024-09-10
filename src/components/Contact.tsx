@@ -60,7 +60,7 @@ const ContactSheet = () => {
   return(
 	<div className="flex flex-col items-center 
 	h-auto w-auto
-	bg-white p-6 shadow-xl">
+	bg-white p-6 shadow-xl ">
 
 		<h3 className="font-semibold text-[1.55rem]">Contact Us</h3>
 		<p className="my-2 mr-2">  sales@hannesprecision.com</p>

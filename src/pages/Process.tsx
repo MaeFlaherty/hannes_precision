@@ -15,7 +15,7 @@ export default function Process() {
 
 	<NavBar />	
 
-	<main className="min-w-screen w-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden h-fit ">
+	<main className="flex flex-col min-w-screen w-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden ">
 		<section className="snap-start grid grid-cols-1 lg:grid-cols-2 ">
 			<div className="flex flex-col items-center pb-16 justify-center right-0 w-full h-auto bg-red-500  text-white">
 				<h1 className="text-[3.8rem] font-semibold col-span-3 mb-8">Our Process</h1>
@@ -32,7 +32,7 @@ export default function Process() {
 		</section>
 
 		<section id="Equipment" className="flex flex-col justify-center items-center snap-start  
-		mx-auto py-12 w-screen h-screen grid-cols-1 gap-x-8 px-4 mt-4">	
+		mx-auto py-12 w-screen grid-cols-1 gap-x-8 px-4 mt-4">	
 
 			<div className="text-center mb-16">
 			<h1 className="text-[2.45rem] font-bold lg:text-[3.05rem] text-[#ff0000]">The Right Tools for the Job</h1>
@@ -45,7 +45,7 @@ export default function Process() {
 
 
 
-			<div className="grid grid-cols-2 h-[70%] gap-y-12">
+			<div className="grid grid-cols-2 gap-y-12">
 
 				<div className="border-black text-center">
 				<h2 className="text-[#ff0000] text-[1.95rem] font-semibold">CNC Swiss Lathes</h2>
@@ -96,9 +96,9 @@ export default function Process() {
 		
 		</section>
 
-		<section id="Materials" className="flex flex-col items-center justify-center snap-start text-center h-screen">
+		<section id="Materials" className="flex flex-col items-center justify-center snap-start text-center">
 
-			<h1 className="text-[2.45rem] font-bold lg:text-[3.05rem] text-[#ff0000]">Materials</h1>
+			<h1 className=" text-[2.45rem] font-bold lg:text-[3.05rem] text-[#ff0000]">Materials</h1>
 			<div className="">
 				<ul className="text-[1.55rem] xl:text-[1.95rem]">
 					<li>300, 400 Series and 17-4 Stainless Steels</li>

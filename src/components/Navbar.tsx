@@ -14,7 +14,7 @@ return(
 				<Link href="/"><img src = "/Hannes_Precision_Favicon.svg" className="w-10"/></Link>
 				<h2 className="text-[1.95rem] font-light leading-8">Hannes <br/>Precision</h2>
 			</div>
-			<div className="flex ml-auto gap-x-10">
+			<div className="flex ml-auto gap-x-10 mr-5">
 				<About/>
 				<ProcessLink/>
 				<Contact />
