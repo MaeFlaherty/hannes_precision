@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
 	<Head>
-		<title>Hannes Precision TEST BUILD</title>
+		<title>Hannes Precision</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="icon" href="/Hannes_Precision_Favicon.svg" />
     </Head>
